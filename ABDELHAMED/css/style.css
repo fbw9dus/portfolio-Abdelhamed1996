@@ -4,25 +4,7 @@ body{
     font-family: 'Lato', sans-serif;
     
 }
-ul{
-    padding: 0px;
-    
-}
-li{
-    background: gray;
-    color: white;
-    list-style: none;
-    border-bottom: 1px solid white;
-}
-@media(min-width:480px){
-    ul{
-        background: gray;
-        text-align: center;
-    }
-    li{
-        display: inline;
-    }
-}
+
 
 .content{
     text-align: center;
@@ -251,5 +233,41 @@ span{
      display: flex;
      flex-direction: row;
  }
+
+
+
+@media(min-width:480px){
+    .menu{
+        height: 70px;
+        background: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu li{
+        border: none;
+
+    }
+    .icons > div{
+       margin-left: 700px;
+    }
+    #port img{
+        width: 800px;
+        height: 600px;
+        text-align: center;
+    }
+    .bar{
+        margin-left: 600px;
+    }
+    #skills h3{
+        margin-left: 600px;
+    }
+    #lebnslauf-menu>li{
+        text-align: center;
+        margin-left: 600px;
+    }
+
+}
+  
 
   
