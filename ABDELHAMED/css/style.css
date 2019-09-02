@@ -4,6 +4,25 @@ body{
     font-family: 'Lato', sans-serif;
     
 }
+ul{
+    padding: 0px;
+    
+}
+li{
+    background: gray;
+    color: white;
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+@media(min-width:480px){
+    ul{
+        background: gray;
+        text-align: center;
+    }
+    li{
+        display: inline;
+    }
+}
 
 .content{
     text-align: center;
