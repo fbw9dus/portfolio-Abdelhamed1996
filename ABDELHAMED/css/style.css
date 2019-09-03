@@ -233,4 +233,11 @@ span{
      flex-direction: row;
  }
 
+
+ button{
+     color: white;
+     background: blue;
+     height: 30px;
+ }
+
   
